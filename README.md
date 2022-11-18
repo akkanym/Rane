@@ -1,21 +1,19 @@
 # Rane
 # Program make a simple calculator
-
 # This function adds two numbers
-def add(x, y):
-    return x + y
+def add(x, s):
+    return x + s
 
 # This function subtracts two numbers
 def subtract(x, y):
     return x - y
-
 # This function multiplies two numbers
 def multiply(x, y):
     return x * y
 
 # This function divides two numbers
-def divide(x, y):
-    return x / y
+def divide(x, s):
+    return x / s
 
 
 print("Select operation.")
